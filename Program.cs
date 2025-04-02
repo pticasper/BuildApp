@@ -4,15 +4,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 
-builder.Configuration.AddAzureAppConfiguration(
-    options=> 
-    {
-        options.Connect("Endpoint=https://appconfigbykerim.azconfig.io;Id=4MIO;Secret=9OpeXA3nqLPE3skrC7Xok8oLEKoobg3AmN7549Qo5YmUTJf8DBRBJQQJ99BDAC5T7U2ZAx3ZAAACAZAC2ByG");
-        options.UseFeatureFlags();
-    });
-
-builder.Services.AddFeatureManagement();
-
+builder.Configuration.AddJsonFile("appsettings.json").AddEnvironmentVariables();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

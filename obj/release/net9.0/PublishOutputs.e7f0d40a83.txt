@@ -28,6 +28,7 @@ C:\Users\kerim\source\repos\BuildApp\bin\Publish\Microsoft.IdentityModel.Protoco
 C:\Users\kerim\source\repos\BuildApp\bin\Publish\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\kerim\source\repos\BuildApp\bin\Publish\Microsoft.IdentityModel.Tokens.dll
 C:\Users\kerim\source\repos\BuildApp\bin\Publish\Microsoft.SqlServer.Server.dll
+C:\Users\kerim\source\repos\BuildApp\bin\Publish\Newtonsoft.Json.dll
 C:\Users\kerim\source\repos\BuildApp\bin\Publish\System.ClientModel.dll
 C:\Users\kerim\source\repos\BuildApp\bin\Publish\System.Configuration.ConfigurationManager.dll
 C:\Users\kerim\source\repos\BuildApp\bin\Publish\System.IdentityModel.Tokens.Jwt.dll
