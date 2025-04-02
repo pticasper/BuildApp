@@ -19,7 +19,7 @@ public class IndexModel : PageModel
     public async Task<IActionResult> OnGet()
     {
        
-        string functionURL="https://appfunction1002030.azurewebsites.net/api/appFunction";
+        string functionURL="https://appfunction-e9gcd4dme5cebwfm.francecentral-01.azurewebsites.net/api/appfunction";
         using(HttpClient client=new HttpClient())
         {
             HttpResponseMessage response= await client.GetAsync(functionURL);
